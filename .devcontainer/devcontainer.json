@@ -1,11 +1,11 @@
 {
 	"name": "Development environments on your infrastructure",
-	"image": "codercom/oss-dogfood:latest",
+	"image": "docker.1ms.run/codercom/oss-dogfood:latest",
 	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+		"ghcr.nju.edu.cn/devcontainers/features/docker-in-docker:2": {
 			"moby": "false"
 		},
-		"ghcr.io/coder/devcontainer-features/code-server:1": {
+		"ghcr.nju.edu.cn/coder/devcontainer-features/code-server:1": {
 			"auth": "none",
 			"port": 13337
 		},
